@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Hello world action Step
         id: hello
-        uses: octocat/hello-world-javascript-action@1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b
+        uses: ./
         with:
           who-to-greet: "Mona the Octocat"
       - name: Get the output time
